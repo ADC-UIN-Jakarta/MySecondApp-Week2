@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyUIAppBasic</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="show">Show</string>
+    <string name="adc_uinjkt"> ADC UINJKT</string>
+    <string name="description"> Description </string>
+    <string name="nama">Name</string>
+    <string name="tgl">Date</string>
+    <string name="no_tlp">Phone</string>
+    <string name="pekerjaan">Job</string>
+    <string name="title_activity_splash">Splash Activity </string>
+    <string name="title_activity_menu">MenuActivity </string>
+    <string name="title_activity_bio">BioActivity </string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="title_activity_gallery">GalleryActivity </string>
+    <string name="title_activity_about">AboutActivity</string>
+
+</resources>

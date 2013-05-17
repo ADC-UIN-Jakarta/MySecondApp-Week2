@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".BioActivity" >
+
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/nama"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        
+         <TextView
+            android:id="@+id/tv_tgl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/tgl"
+            android:textSize="14sp"
+            android:layout_margin="10dp" />
+         
+         <TextView
+             android:id="@+id/tv_notlp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:text="@string/no_tlp"
+             android:textSize="14sp"
+             android:textStyle="bold" />
+         
+          <TextView
+            android:id="@+id/tv_pkrj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/pekerjaan"
+            android:textSize="14sp"
+            android:layout_margin="10dp" />
+          
+    </LinearLayout>
+        
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <EditText
+            android:id="@+id/et_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"     
+            android:ems="10"
+            android:inputType="textPersonName" />
+        
+        <EditText
+            android:id="@+id/et_tgl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"   
+            android:ems="10"
+            android:inputType="date" />
+       
+       <EditText
+            android:id="@+id/et_notlp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"    
+            android:ems="10"
+            android:inputType="phone" />
+       
+        <EditText
+            android:id="@+id/et_pkrj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"  
+            android:ems="10"
+            android:inputType="text" />
+        
+        <Button
+	        android:id="@+id/btn_show"
+	        android:layout_margin="40dp"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/show" />
+    </LinearLayout>
+    
+   
+</LinearLayout>
